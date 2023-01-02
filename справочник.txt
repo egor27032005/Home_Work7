@@ -1,6 +1,6 @@
-ozerova veronika;89675312200;girlfriend
-petrov alexander;89819769361;friend
-sidorenko vladimir;89217698450;father
-maks paus;79117304325;classmate
-zelina liza;89006359853;classmate 
-savich irina;79213290334;teacher
+ozerova veronika; 89675312200; girlfriend.
+krasnouxov alexander; 89819769361; friend.
+sidorenko vladimir; 89217698450; father.
+maks paus; 79117304325; classmate.
+zelina liza; 89006359853; classmate.
+savich irina; 79213290334; teacher.
