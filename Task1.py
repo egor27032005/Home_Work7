@@ -8,7 +8,7 @@ def add_a_contact(p):
         name=input("введите имя контакта ")
         number=input('введите номер контакта ')
         description=input('введите описание контакта ')
-        return file.write(name+"; "+number+"; "+description)
+        return file.write('\n'+name+"; "+number+"; "+description)
     file.close()
 
 def conclusion(p):
@@ -30,12 +30,12 @@ def export(p):
                 lines.append(myline)
         print("сколько номеров вы хотите забрать? ")
         pul=int(input())
-        for i in range(pul):
+        for i in range(pul):##не понимаю, почему он не учитывает i, подскажите пожалуйста
             print("введите фамилию ")
             sername=input()
             for j in range(lin):
                 if sername in lines[j]:
-                    file2=open('наэксорт.txt', 'a')
+                    file2=open('наэкспорт.txt', 'a')
                     return file2.write(lines[j]+'\n')
                 file2.close()
 def change(p):
